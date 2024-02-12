@@ -1,0 +1,66 @@
+@font-face {
+    /* MV Waheed */
+    font-family: 'MV_Waheed';
+    font-style: normal;
+    src: local(''),
+        url('../public/fonts/mv/MVWaheed.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../public/fonts/mv/MVWaheed.woff') format('woff'); /* Old Browsers */
+}
+
+@font-face {
+    /* MV Waheed */
+    font-family: 'MV_Faseyha';
+    font-style: normal;
+    src: local(''),
+        url('../public/fonts/mv/MVFaseyhaMhr.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../public/fonts/mv/MVFaseyhaMhr.woff') format('woff'); /* Old Browsers */
+}
+
+@font-face {
+    /* MV Waheed */
+    font-family: 'MV_Typer';
+    font-style: normal;
+    src: local(''),
+        url('../public/fonts/mv/mvtyper.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../public/fonts/mv/mvtyper.woff') format('woff'); /* Old Browsers */
+}
+
+
+/* cyrillic */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu5mxKKTU1Kvnz.woff2) format('woff2');
+    unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;   
+}
+
+.mv_waheed {
+    font-family: 'MV_Waheed', sans-serif;
+    /* anti aliased */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: antialiased;
+    direction: rtl;
+    font-weight: 400;
+}
+
+.mv_faseyha {
+    font-family: 'MV_Faseyha', sans-serif;
+    /* anti aliased */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: antialiased;
+    direction: rtl;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.mv_typer {
+    font-family: 'MV_Typer', sans-serif;
+}
+
+.roboto {
+    font-family: 'Roboto', monospace;
+    direction: ltr;
+}
+
+
