@@ -1,20 +1,30 @@
-import type { MetaFunction } from "@remix-run/node";
+import type { MetaFunction } from '@remix-run/node';
+import MainNews from '~/components/home/mainNews';
+import MainSideAd from 'public/img/Ads/MainSide.jpeg';
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "New Remix App" },
-    { name: "description", content: "Welcome to Remix!" },
+    { title: 'New Remix App' },
+    { name: 'description', content: 'Welcome to Remix!' },
   ];
 };
 
 export default function Index() {
   return (
-    <div className="p-4 lg:p-2">
-      <h1 className="max-w-3xl px-4 mb-8 text-3xl leading-loose  text-black-two sm:px-0  mv_waheed">ލިސްޓު ބާތިލެއް ނުކުރަން، އޭޖީގެ ލަފާއާ އެކު ދާނީ ކުރިއަށް: ހައުސިން މިނިސްޓްރީ</h1>
-      <br />
-      <p className="max-w-3xl px-4 mb-8 text-lg leading-loose  text-black-two sm:px-0 mv_faseyha">
-        ގެދޮރުވެރިޔާ ސްކީމުގެ ދަށުން ފްލެޓްތައް ދޫކުރި މީހުންގެ ލިސްޓު ބާތިލުކުރަން މި ސަރުކާރުން ނޫޅޭ ކަމަށާއި އެއްވެސް މައްސަލައެއް ނެތް{" "}
-      </p>
+    <div className="flex flex-row justify-between lg:my-4 gap-x-4 h-96">
+      <div className="flex-1">
+        <MainNews />
+      </div>
+      <div className="hidden lg:block">
+        <img
+          src={MainSideAd}
+          alt="Main side ad"
+          className="h-full object-cover"
+        />
+        <caption className="text-center text-xs text-gray-500">
+          Advertisment
+        </caption>
+      </div>
     </div>
-  )
+  );
 }
