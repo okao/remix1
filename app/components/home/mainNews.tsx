@@ -18,7 +18,7 @@ const MainNews = () => {
         <span className="mb-8 text-[#a2a2a2] text-[12px]" dir="ltr">
           &#128337; 30 mins ago
         </span>
-        <p className="truncate line-clamp-3 mb-2 mt-4 mb-8 text-lg leading-loose sm:px-0 mv_faseyha text-balance text-pretty">
+        <p className="truncate line-clamp-3 mb-2 mt-4 mb-8 text-lg leading-loose sm:px-0 article-reader text-balance text-pretty">
           ބީއެމްއެލް އަށް ޑޮލަރު ލިބުން ދަތިވެ ރުފިޔާ އެކައުންޓުތަކުގެ
           ކާޑު ލިމިޓް 90 ޕަސެންޓާ ހަމަޔަށް ކުޑަކުރަން ޖެހިދާނެ ކަމަށް
           އެ ބޭންކުގެ އޮފިޝަލުންނާ ހަވާލާދީ މީޑިއާގައި ބުނެފައި ވިޔަސް
