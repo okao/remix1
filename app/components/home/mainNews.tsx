@@ -1,9 +1,8 @@
-import React from 'react';
 import MainNewsImage from 'public/img/News/MainNews.jpeg';
 
 const MainNews = () => {
   return (
-    <div className="bg-[#F2F2F2] border flex lg:h-96 flex-col lg:flex-row-reverse ">
+    <div className="bg-whiteish border flex lg:h-96 flex-col lg:flex-row-reverse ">
       <div className="border-b">
         <img
           src={MainNewsImage}

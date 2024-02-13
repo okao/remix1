@@ -1,15 +1,4 @@
-import {
-  Links,
-  LiveReload,
-  Meta,
-  Outlet,
-  Scripts,
-  ScrollRestoration,
-  useLocation,
-} from '@remix-run/react';
-
 import { useState, useRef } from 'react';
-
 import logo from 'public/img/logo/svg/logo-no-background.svg';
 
 const SideBar = () => {

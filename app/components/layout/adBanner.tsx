@@ -1,4 +1,3 @@
-import React from 'react';
 import MainAd from '../../../public/img/Ads/Main.jpeg';
 
 const AdBanner = () => {
